@@ -1,3 +1,4 @@
+#######
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 geno = read.table("31SNP_1Proxy.xmat",head=T)
 all_data=read.table("all_data_imputation_new.txt",header = T)
